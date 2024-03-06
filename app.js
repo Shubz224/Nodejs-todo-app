@@ -2,7 +2,6 @@ import express from "express";
 import router from "../api/routes/user.js";
 import taskRouter from "../api/routes/tasks.js";
 import { config } from "dotenv";
-import { User } from "./models/user.js";
 import cookieParser from "cookie-parser";
 import { errorMiddleware } from "./middlewares/error.js";
 import cors  from "cors"
