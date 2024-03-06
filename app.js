@@ -1,6 +1,6 @@
 import express from "express";
-import router from "../api/routes/user.js";
-import taskRouter from "../api/routes/tasks.js";
+import router from "./routes/user.js";
+import taskRouter from "./routes/tasks.js";
 import { config } from "dotenv";
 import cookieParser from "cookie-parser";
 import { errorMiddleware } from "./middlewares/error.js";

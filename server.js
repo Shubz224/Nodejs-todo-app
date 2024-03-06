@@ -1,5 +1,5 @@
-import {app} from "../api/app.js"
-import {connectDB} from "../api/data/database.js"
+import {app} from "./app.js"
+import {connectDB} from "./data/database.js"
 
 
 
